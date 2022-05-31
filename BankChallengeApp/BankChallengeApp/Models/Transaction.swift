@@ -1,0 +1,44 @@
+//
+//  Transaction.swift
+//  BankChallengeApp
+//
+//  Created by Matheus Lenke on 31/05/22.
+//
+
+import Foundation
+
+// MARK: - API Response
+struct StatementApiResponse: Codable {
+    let items: [Transaction]
+
+//    enum CodingKeys: String, CodingKey {
+//        case transactions = "items"
+//    }
+}
+
+// MARK: - Transaction
+struct Transaction: Codable {
+    let tType: TransactionType
+    let amount: Int
+    let to: String?
+    let id: String
+    let itemDescription: String
+    let createdAt: String
+    let bankName: String?
+    let from: String?
+
+    enum CodingKeys: String, CodingKey {
+        case tType, amount, to, id
+        case itemDescription = "description"
+        case createdAt, bankName, from
+    }
+}
+
+// MARK: - Transaction Type
+enum TransactionType: String, Codable {
+    case bankslipcashin = "BANKSLIPCASHIN"
+    case pixcashin = "PIXCASHIN"
+    case pixcashout = "PIXCASHOUT"
+    case transferin = "TRANSFERIN"
+    case transferout = "TRANSFEROUT"
+}

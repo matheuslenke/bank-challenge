@@ -1,0 +1,6 @@
+framework module Pods_BankChallengeApp {
+  umbrella header "Pods-BankChallengeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
