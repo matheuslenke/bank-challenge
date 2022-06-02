@@ -19,33 +19,84 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A92935EB0346F8A2E07D5A61E17B66D /* Pods-BankChallengeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7DD7E1FD8987437D5971D51423C276 /* Pods-BankChallengeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D430FBA8AB9AE7538FCBD812458F661 /* Pods-BankChallengeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0451F3FCD2DB03FEB1815926106AE399 /* Pods-BankChallengeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6055BFF2D7975A119C830B387F51CE1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		623DF05495BD838BA20AF6AF05A61FB9 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C8AE83B3C5985359D69059579D95D /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */; };
-		66C1B9BC4FFC8FF193F93E483E98C0BD /* Pods-BankChallengeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 503A4D5F095F216A7A7CFCF966C324AB /* Pods-BankChallengeAppTests-dummy.m */; };
-		9254A6C6D671C2F4F9CFFFB091DD2C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9785101A0D43A6F6A8DD92B939FAA4AD /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58278794513805B96FD436602B9DDC8 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B0D644605EBBAFC2FD5C7B6134BC1E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FDCC1AC3CE2C6BD77FF77DB46B65841F /* Pods-BankChallengeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C26CDEDEC3B4A4BE2DE936C30CAFB88 /* Pods-BankChallengeApp-dummy.m */; };
+		07319FC388250B963206DB0BF5262128 /* CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED2F02226C34FDB280834336F089CCA /* CGPath.swift */; };
+		0A92935EB0346F8A2E07D5A61E17B66D /* Pods-BankChallengeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 470DB1526D79DCB47644B420DC4714F2 /* Pods-BankChallengeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CDCDA70419BF0A8676F57DBD9C8CBC1 /* Pods-BankChallengeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE949030F2998469C7DC5874475C716B /* Pods-BankChallengeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D0EF6FBAF37BB930183B8F5AA719CD2 /* SnapshotTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F76A7B8B54C50123178CA7100BFD75 /* SnapshotTesting-dummy.m */; };
+		26590C89A8E48BD44489C15A46CCF02B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		28F1B4D31269CC69CB5F41DBBCEF5222 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C993964BAF785BF515112C40B4695D /* Any.swift */; };
+		2C0C1A356E0D75368E196C24C3761129 /* Diffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64B1554614EA2217CF3A70A45BF1FE8 /* Diffing.swift */; };
+		3D1E0E44DB5DB31C932BBB9F1385B57A /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B660DB9FD922DF31E1ED023DD2E7F3 /* NSView.swift */; };
+		3DAFC3A87D54F6BA47518F4904B7FE54 /* AssertSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740AEA42ABD9DC53B2D3AD19E8D0698 /* AssertSnapshot.swift */; };
+		411A54B3A4E25951CC0729016E183B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		4249BA5FD30CFB0680582D7C7C6EE392 /* AssertInlineSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1045C7178223DC1E9B42DD6B37F4D1B /* AssertInlineSnapshot.swift */; };
+		480D1264071DA1967F86F28F5CF29B8B /* SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B3BE76C740A535083AAAC8BB57544 /* SpriteKit.swift */; };
+		486A6DAD276EB55E6D7C9F515C86C227 /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6E1FF1D6736A23D077A8606C7E434 /* SnapshotTestCase.swift */; };
+		4A8EE45D20D442748189087F6A430A75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */; };
+		4F4D449821AB24276FA18CB343B2C3E8 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334CF0B1BD589C253E07C66D8C30AE8 /* Codable.swift */; };
+		532436EEB8C806728018E24162505A32 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D604391EEA2536B01109B52920CEF1 /* Description.swift */; };
+		5CA71008BD23B355944AC5383821C4E2 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4027220BC8BF6B45988F9A599AE93 /* Internal.swift */; };
+		6055BFF2D7975A119C830B387F51CE1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		6235B3883B6D9B3EF262ACFF43631F3D /* SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B98C19816BC5E3ED176DF1BDBD6045 /* SceneKit.swift */; };
+		66C1B9BC4FFC8FF193F93E483E98C0BD /* Pods-BankChallengeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBADFA091CF0572A5E828E0E87C83B2 /* Pods-BankChallengeAppTests-dummy.m */; };
+		6FA42D338F2CDE1914908E7D0662AED5 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ABC7D4455ACCAA92E2648ADEFD3509 /* Diff.swift */; };
+		70060B0C311FBDF840146EEE9B762220 /* PlistEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0B8AE6E8D3E39E0EFAF0038AC5D1E /* PlistEncoder.swift */; };
+		78BBB110735B5BD1BDDC3CD4FC563323 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05401E9D72CC74872B494032E20E6922 /* Data.swift */; };
+		7F5C5DD662B656505ECF172E1DDC232E /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E33B1E73CABD9C61C84B198020B49B2 /* UIBezierPath.swift */; };
+		88DE0AA2E9071FD322F40132B5ACE852 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DFB5987BD2583807D722DF5D8DDF7 /* String.swift */; };
+		9104476A4778BB28C819AB92599A5B6E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657FCEB7DAD9018A7191EC6BD14EF60 /* UIImage.swift */; };
+		928DBECCA86A6F98E4B42FA62C5FF051 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E6EC6EC8E6A3C0E3FAE7969D79697 /* View.swift */; };
+		957508AA897C27F86D544CCF1CED1904 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C90DD1A49775D03105D5DF16129D2C /* NSBezierPath.swift */; };
+		96E71750BD8C847E125FAB3C7A336224 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45B5828DC25D09D12BB9CAC66529F0 /* URLRequest.swift */; };
+		97BEDF828D70F8BE2BE4E917DD992C48 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829541853BC7EB66E9B8ED697F667B4C /* NSImage.swift */; };
+		9B00AEBE5F221FE9815159125313C0BD /* Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E01D44E18EACBD2897B41E1DAED46 /* Wait.swift */; };
+		9D65BFC4B2C4B6102D6B7EC25A7CD739 /* NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF66833898A79F38286BC38B92C0696 /* NSViewController.swift */; };
+		9D6622CDE2793B13735F47C44A7743ED /* SnapshotTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542580A94991C414F8A165F89E7936B0 /* SnapshotTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6B241BE1332F18DFCC2BF32E03C42C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12992227D3DBB3935BFEF2EE9A67FEF /* UIView.swift */; };
+		AFE414B3E0D49B39A358DE524B0839D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		B82E31B02A02CB8400E4076A22597B76 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4411ADDED22C4471CBC89AD4BD6EF80 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */; };
+		C56B3E1A07308BCC8376D15C735B1C25 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C366AC736FAC1C83B6CB7753CA1CA /* CALayer.swift */; };
+		CC0E9D12079782FAE01AF7C728845785 /* Pods-BankChallengeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5725E3B818A2977382F5D2721AEE7D /* Pods-BankChallengeApp-dummy.m */; };
+		CFFD67104AE4ABBFEB3801F9B8149664 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C691BB7C7D017B478F47597611409 /* Async.swift */; };
+		D0A29718080A06AB351F6FA41B725BEA /* XCTAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C869ECC854FA35B8D5425A85A462D9F /* XCTAttachment.swift */; };
+		D3C4D4F28C0180E812B6BA5FC4F5015B /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440403EB291081C1F0CEC531B7D7C53D /* UIViewController.swift */; };
+		D7AE9DBB6C5D2522EB24A673921F9365 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36452B6DACA44C3E339AA4C0B73561EF /* SwiftUIView.swift */; };
+		D91B62AD39222D180561E15822EA4659 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DA5052225BAA34BB8208EF30FA8C10 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA787DFD55A7814418DE78F66BA70847 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97348DCD61A37C81DC0B016DA3D94049 /* CaseIterable.swift */; };
+		EB5F8B0D9E74FD8A1724B04E6AACFABE /* Snapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A4539AB8789D05C21F79BFC2D5729 /* Snapshotting.swift */; };
+		FEB8176EE5F7E44C5399D94BC6DE0C46 /* String+SpecialCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C071065D740FD01A4FA60F1B41EB53 /* String+SpecialCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57961065A9E6C3370F805C38A4740117 /* PBXContainerItemProxy */ = {
+		0FB3DF9BBC4AFE5608FC7C76A919BE89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
-		A164B19FC5BF6EC2B24A08544C33D265 /* PBXContainerItemProxy */ = {
+		5B0990B31D6A793B640401D06C9F37A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E4935198E573280556ABE568C37A7AD;
 			remoteInfo = "Pods-BankChallengeApp";
 		};
-		F7DFDDCFF363198F731163CEE63A2FA4 /* PBXContainerItemProxy */ = {
+		7AAFE229F6C85F1C9A6DFA5CED2ADACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEAE7CDD604DE4F3072E6021A314487;
+			remoteInfo = SnapshotTesting;
+		};
+		813A4EA8A17C623D13CAEECEBC393D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEAE7CDD604DE4F3072E6021A314487;
+			remoteInfo = SnapshotTesting;
+		};
+		A667EF6CAF626D5ADA108A249C41AC55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,53 +106,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0451F3FCD2DB03FEB1815926106AE399 /* Pods-BankChallengeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeApp-umbrella.h"; sourceTree = "<group>"; };
-		0F2B320B26B48FC56DDAE2E7BF603613 /* Pods-BankChallengeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeAppTests.modulemap"; sourceTree = "<group>"; };
-		1951E9D3B67F9DF0AED3135822E2904F /* Pods-BankChallengeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeApp.modulemap"; sourceTree = "<group>"; };
-		24E6470C270E12D2DE6801704125B221 /* Pods-BankChallengeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		05401E9D72CC74872B494032E20E6922 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Sources/SnapshotTesting/Snapshotting/Data.swift; sourceTree = "<group>"; };
+		1E33B1E73CABD9C61C84B198020B49B2 /* UIBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBezierPath.swift; path = Sources/SnapshotTesting/Snapshotting/UIBezierPath.swift; sourceTree = "<group>"; };
+		1E61752EEBF77AFA873A07E311EF5D5B /* Pods-BankChallengeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25994B9A55FA12F0E76BC42EE6FFA23E /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		278B8C55BC821D1CA791D7669697604D /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		2C7DFB5987BD2583807D722DF5D8DDF7 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/SnapshotTesting/Snapshotting/String.swift; sourceTree = "<group>"; };
+		2DE6E1FF1D6736A23D077A8606C7E434 /* SnapshotTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotTestCase.swift; path = Sources/SnapshotTesting/SnapshotTestCase.swift; sourceTree = "<group>"; };
+		300AE02992761F93BDDE1841719BFE67 /* Pods-BankChallengeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		34A14726E5A0DD11BB237D71A1BAE32E /* Pods-BankChallengeApp-BankChallengeAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankChallengeApp-BankChallengeAppUITests"; path = Pods_BankChallengeApp_BankChallengeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39CFBE4ADC4FF6B742ED924FC1E6CCD3 /* Pods-BankChallengeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
-		3F1A06A039F1147D08E5284232FE1E42 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46C594A007A1C93F417E02C3BEB6439C /* Pods-BankChallengeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp.release.xcconfig"; sourceTree = "<group>"; };
-		503A4D5F095F216A7A7CFCF966C324AB /* Pods-BankChallengeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeAppTests-dummy.m"; sourceTree = "<group>"; };
-		5186632ACC81864F1744315BE5201635 /* Pods-BankChallengeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6915385A67E3590922AE741F562682DA /* Pods-BankChallengeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F1C8AE83B3C5985359D69059579D95D /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		35DA5052225BAA34BB8208EF30FA8C10 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		36452B6DACA44C3E339AA4C0B73561EF /* SwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = Sources/SnapshotTesting/Snapshotting/SwiftUIView.swift; sourceTree = "<group>"; };
+		3657FCEB7DAD9018A7191EC6BD14EF60 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/SnapshotTesting/Snapshotting/UIImage.swift; sourceTree = "<group>"; };
+		3B0090DFF3220FE5F4AEC5B3668C5B9D /* Pods-BankChallengeApp-BankChallengeAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeApp-BankChallengeAppUITests.modulemap"; sourceTree = "<group>"; };
+		3ED2F02226C34FDB280834336F089CCA /* CGPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPath.swift; path = Sources/SnapshotTesting/Snapshotting/CGPath.swift; sourceTree = "<group>"; };
+		440403EB291081C1F0CEC531B7D7C53D /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Sources/SnapshotTesting/Snapshotting/UIViewController.swift; sourceTree = "<group>"; };
+		46C7EAC9D9FD818A4E128CE0058EA347 /* Pods-BankChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		470DB1526D79DCB47644B420DC4714F2 /* Pods-BankChallengeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeAppTests-umbrella.h"; sourceTree = "<group>"; };
+		4A870AE8418EC79B0729382ADD4B7858 /* SnapshotTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapshotTesting.debug.xcconfig; sourceTree = "<group>"; };
+		4C869ECC854FA35B8D5425A85A462D9F /* XCTAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTAttachment.swift; path = Sources/SnapshotTesting/Common/XCTAttachment.swift; sourceTree = "<group>"; };
+		5082EC71CDCB090DD27CE07F8DEAEFCA /* Pods-BankChallengeAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeAppTests-Info.plist"; sourceTree = "<group>"; };
+		521D1499C4CE94F44A0BEF0841E94872 /* Pods-BankChallengeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		542580A94991C414F8A165F89E7936B0 /* SnapshotTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapshotTesting-umbrella.h"; sourceTree = "<group>"; };
+		55ABC7D4455ACCAA92E2648ADEFD3509 /* Diff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diff.swift; path = Sources/SnapshotTesting/Diff.swift; sourceTree = "<group>"; };
+		5D8A4539AB8789D05C21F79BFC2D5729 /* Snapshotting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshotting.swift; path = Sources/SnapshotTesting/Snapshotting.swift; sourceTree = "<group>"; };
+		5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		619E3A29A4742BB06C43C09F23DB1639 /* Pods-BankChallengeApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-Info.plist"; sourceTree = "<group>"; };
+		643BB841F56B77793D570FC12A701B10 /* Pods-BankChallengeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeAppTests.modulemap"; sourceTree = "<group>"; };
+		67569644F25F696C254045B925FD64D6 /* SnapshotTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapshotTesting.modulemap; sourceTree = "<group>"; };
+		68CCE5D594522D06EF1F66616C650695 /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4E6EC6EC8E6A3C0E3FAE7969D79697 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Sources/SnapshotTesting/Common/View.swift; sourceTree = "<group>"; };
+		6E2AED0C402EEDEA264D93D42693582B /* Pods-BankChallengeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp.release.xcconfig"; sourceTree = "<group>"; };
+		79648CB9E1DC847BDF839135016AED4A /* Pods-BankChallengeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeApp.modulemap"; sourceTree = "<group>"; };
+		7C049FF636111C91085B833EA55E51B3 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C259D514EAD67046D16F62CB905DF9F /* Pods-BankChallengeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FC297ADE41DBF7E960772990681AFB3 /* Pods-BankChallengeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		808C366AC736FAC1C83B6CB7753CA1CA /* CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayer.swift; path = Sources/SnapshotTesting/Snapshotting/CALayer.swift; sourceTree = "<group>"; };
+		829541853BC7EB66E9B8ED697F667B4C /* NSImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImage.swift; path = Sources/SnapshotTesting/Snapshotting/NSImage.swift; sourceTree = "<group>"; };
 		8A00F0245E514EAECEB87FF5033A510A /* Pods-BankChallengeAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankChallengeAppTests"; path = Pods_BankChallengeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8362C44833B23E4CA3BEC3A9BC77CD /* Pods-BankChallengeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E30D0B93B97A5E95E611978EA1FB9F4 /* Pods-BankChallengeApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BankChallengeApp-frameworks.sh"; sourceTree = "<group>"; };
 		90125018FEB4A9E511A62EC4C07C753E /* Pods-BankChallengeApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankChallengeApp"; path = Pods_BankChallengeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C26CDEDEC3B4A4BE2DE936C30CAFB88 /* Pods-BankChallengeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeApp-dummy.m"; sourceTree = "<group>"; };
+		964EA559FD0DA21824F325264E06BAF2 /* Pods-BankChallengeApp-BankChallengeAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BankChallengeApp-BankChallengeAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		97348DCD61A37C81DC0B016DA3D94049 /* CaseIterable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaseIterable.swift; path = Sources/SnapshotTesting/Snapshotting/CaseIterable.swift; sourceTree = "<group>"; };
+		9D0C691BB7C7D017B478F47597611409 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/SnapshotTesting/Async.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A300875B821152F93CD61758E39465B1 /* Pods-BankChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB429DB7267756E59346113E999D671B /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BAC2BAC87B7BE57AFE3C26CAFB706DF2 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6AC36D65BAC180A9AF436011858531C /* Pods-BankChallengeAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeAppTests-Info.plist"; sourceTree = "<group>"; };
-		CE7D586E7032AB660BE861A543319179 /* Pods-BankChallengeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0170611AA8D7DF8CC89EF3527EA009F /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D51A8972DC3F0983EBFB1A71573CFAD8 /* Pods-BankChallengeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E49DFEB8BD4EF5BE9F511D95B92B4403 /* Pods-BankChallengeApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-Info.plist"; sourceTree = "<group>"; };
-		E58278794513805B96FD436602B9DDC8 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		EB27DBD06E8584F501B2FECE74196397 /* Pods-BankChallengeApp-BankChallengeAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankChallengeApp-BankChallengeAppUITests.modulemap"; sourceTree = "<group>"; };
-		EE7DD7E1FD8987437D5971D51423C276 /* Pods-BankChallengeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeAppTests-umbrella.h"; sourceTree = "<group>"; };
-		F9BB095E510BBC6298805C2A42560791 /* Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist"; sourceTree = "<group>"; };
+		A037DBBCCACBFACB5C39A80B1C273043 /* SnapshotTesting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapshotTesting; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12992227D3DBB3935BFEF2EE9A67FEF /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Sources/SnapshotTesting/Snapshotting/UIView.swift; sourceTree = "<group>"; };
+		A8B0B8AE6E8D3E39E0EFAF0038AC5D1E /* PlistEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlistEncoder.swift; path = Sources/SnapshotTesting/Common/PlistEncoder.swift; sourceTree = "<group>"; };
+		ACF4027220BC8BF6B45988F9A599AE93 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/SnapshotTesting/Common/Internal.swift; sourceTree = "<group>"; };
+		AD387FC5167FB4A2F6C42F98147374BE /* SnapshotTesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapshotTesting-prefix.pch"; sourceTree = "<group>"; };
+		AE949030F2998469C7DC5874475C716B /* Pods-BankChallengeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankChallengeApp-umbrella.h"; sourceTree = "<group>"; };
+		AFBADFA091CF0572A5E828E0E87C83B2 /* Pods-BankChallengeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeAppTests-dummy.m"; sourceTree = "<group>"; };
+		B64B1554614EA2217CF3A70A45BF1FE8 /* Diffing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diffing.swift; path = Sources/SnapshotTesting/Diffing.swift; sourceTree = "<group>"; };
+		B8C993964BAF785BF515112C40B4695D /* Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Any.swift; path = Sources/SnapshotTesting/Snapshotting/Any.swift; sourceTree = "<group>"; };
+		B9D604391EEA2536B01109B52920CEF1 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = Sources/SnapshotTesting/Snapshotting/Description.swift; sourceTree = "<group>"; };
+		BC3DABF86949E52D4913FCF39D778FA3 /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1045C7178223DC1E9B42DD6B37F4D1B /* AssertInlineSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertInlineSnapshot.swift; path = Sources/SnapshotTesting/AssertInlineSnapshot.swift; sourceTree = "<group>"; };
+		C1B660DB9FD922DF31E1ED023DD2E7F3 /* NSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSView.swift; path = Sources/SnapshotTesting/Snapshotting/NSView.swift; sourceTree = "<group>"; };
+		C2C90DD1A49775D03105D5DF16129D2C /* NSBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSBezierPath.swift; path = Sources/SnapshotTesting/Snapshotting/NSBezierPath.swift; sourceTree = "<group>"; };
+		C49E01D44E18EACBD2897B41E1DAED46 /* Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wait.swift; path = Sources/SnapshotTesting/Extensions/Wait.swift; sourceTree = "<group>"; };
+		C9C071065D740FD01A4FA60F1B41EB53 /* String+SpecialCharacters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SpecialCharacters.swift"; path = "Sources/SnapshotTesting/Common/String+SpecialCharacters.swift"; sourceTree = "<group>"; };
+		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC45B5828DC25D09D12BB9CAC66529F0 /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequest.swift; path = Sources/SnapshotTesting/Snapshotting/URLRequest.swift; sourceTree = "<group>"; };
+		D03B3BE76C740A535083AAAC8BB57544 /* SpriteKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteKit.swift; path = Sources/SnapshotTesting/Snapshotting/SpriteKit.swift; sourceTree = "<group>"; };
+		D334CF0B1BD589C253E07C66D8C30AE8 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = Sources/SnapshotTesting/Snapshotting/Codable.swift; sourceTree = "<group>"; };
+		D374D655E5F21E835AD180E91579B7DF /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D740AEA42ABD9DC53B2D3AD19E8D0698 /* AssertSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertSnapshot.swift; path = Sources/SnapshotTesting/AssertSnapshot.swift; sourceTree = "<group>"; };
+		D8567465FBB03A2765FBB9C79A54039E /* SnapshotTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapshotTesting.release.xcconfig; sourceTree = "<group>"; };
+		E2F76A7B8B54C50123178CA7100BFD75 /* SnapshotTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapshotTesting-dummy.m"; sourceTree = "<group>"; };
+		E8B98C19816BC5E3ED176DF1BDBD6045 /* SceneKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneKit.swift; path = Sources/SnapshotTesting/Snapshotting/SceneKit.swift; sourceTree = "<group>"; };
+		EA5725E3B818A2977382F5D2721AEE7D /* Pods-BankChallengeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeApp-dummy.m"; sourceTree = "<group>"; };
+		ED10AC134159817B2F9C9F35804BDEF7 /* SnapshotTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapshotTesting-Info.plist"; sourceTree = "<group>"; };
+		EFF66833898A79F38286BC38B92C0696 /* NSViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSViewController.swift; path = Sources/SnapshotTesting/Snapshotting/NSViewController.swift; sourceTree = "<group>"; };
+		F4411ADDED22C4471CBC89AD4BD6EF80 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m"; sourceTree = "<group>"; };
+		F9710106F336E760BF7A1D5D9F393516 /* Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3421CAC77C9163A3F64E8CC95E43366B /* Frameworks */ = {
+		7CD5C51A10C917977CCE092F29484751 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0D644605EBBAFC2FD5C7B6134BC1E6 /* Foundation.framework in Frameworks */,
+				26590C89A8E48BD44489C15A46CCF02B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42202F59AEFAE87BF6469430430B47B7 /* Frameworks */ = {
+		A3E6F437DCDBD6A93A734772AFD5F236 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9254A6C6D671C2F4F9CFFFB091DD2C9F /* Foundation.framework in Frameworks */,
+				AFE414B3E0D49B39A358DE524B0839D5 /* Foundation.framework in Frameworks */,
+				4A8EE45D20D442748189087F6A430A75 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70C5B548D0A47B87C1BD35FF6435380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A54B3A4E25951CC0729016E183B4A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,124 +220,186 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27E8B4DE5802EA6C9A38FDFBFC790BAE /* Pods-BankChallengeApp */ = {
+		126C8862FABF8FC0CBDC04BB2B6D64F6 /* SnapshotTesting */ = {
 			isa = PBXGroup;
 			children = (
-				1951E9D3B67F9DF0AED3135822E2904F /* Pods-BankChallengeApp.modulemap */,
-				6915385A67E3590922AE741F562682DA /* Pods-BankChallengeApp-acknowledgements.markdown */,
-				CE7D586E7032AB660BE861A543319179 /* Pods-BankChallengeApp-acknowledgements.plist */,
-				9C26CDEDEC3B4A4BE2DE936C30CAFB88 /* Pods-BankChallengeApp-dummy.m */,
-				E49DFEB8BD4EF5BE9F511D95B92B4403 /* Pods-BankChallengeApp-Info.plist */,
-				0451F3FCD2DB03FEB1815926106AE399 /* Pods-BankChallengeApp-umbrella.h */,
-				24E6470C270E12D2DE6801704125B221 /* Pods-BankChallengeApp.debug.xcconfig */,
-				46C594A007A1C93F417E02C3BEB6439C /* Pods-BankChallengeApp.release.xcconfig */,
+				B8C993964BAF785BF515112C40B4695D /* Any.swift */,
+				C1045C7178223DC1E9B42DD6B37F4D1B /* AssertInlineSnapshot.swift */,
+				D740AEA42ABD9DC53B2D3AD19E8D0698 /* AssertSnapshot.swift */,
+				9D0C691BB7C7D017B478F47597611409 /* Async.swift */,
+				808C366AC736FAC1C83B6CB7753CA1CA /* CALayer.swift */,
+				97348DCD61A37C81DC0B016DA3D94049 /* CaseIterable.swift */,
+				3ED2F02226C34FDB280834336F089CCA /* CGPath.swift */,
+				D334CF0B1BD589C253E07C66D8C30AE8 /* Codable.swift */,
+				05401E9D72CC74872B494032E20E6922 /* Data.swift */,
+				B9D604391EEA2536B01109B52920CEF1 /* Description.swift */,
+				55ABC7D4455ACCAA92E2648ADEFD3509 /* Diff.swift */,
+				B64B1554614EA2217CF3A70A45BF1FE8 /* Diffing.swift */,
+				ACF4027220BC8BF6B45988F9A599AE93 /* Internal.swift */,
+				C2C90DD1A49775D03105D5DF16129D2C /* NSBezierPath.swift */,
+				829541853BC7EB66E9B8ED697F667B4C /* NSImage.swift */,
+				C1B660DB9FD922DF31E1ED023DD2E7F3 /* NSView.swift */,
+				EFF66833898A79F38286BC38B92C0696 /* NSViewController.swift */,
+				A8B0B8AE6E8D3E39E0EFAF0038AC5D1E /* PlistEncoder.swift */,
+				E8B98C19816BC5E3ED176DF1BDBD6045 /* SceneKit.swift */,
+				2DE6E1FF1D6736A23D077A8606C7E434 /* SnapshotTestCase.swift */,
+				5D8A4539AB8789D05C21F79BFC2D5729 /* Snapshotting.swift */,
+				D03B3BE76C740A535083AAAC8BB57544 /* SpriteKit.swift */,
+				2C7DFB5987BD2583807D722DF5D8DDF7 /* String.swift */,
+				C9C071065D740FD01A4FA60F1B41EB53 /* String+SpecialCharacters.swift */,
+				36452B6DACA44C3E339AA4C0B73561EF /* SwiftUIView.swift */,
+				1E33B1E73CABD9C61C84B198020B49B2 /* UIBezierPath.swift */,
+				3657FCEB7DAD9018A7191EC6BD14EF60 /* UIImage.swift */,
+				A12992227D3DBB3935BFEF2EE9A67FEF /* UIView.swift */,
+				440403EB291081C1F0CEC531B7D7C53D /* UIViewController.swift */,
+				CC45B5828DC25D09D12BB9CAC66529F0 /* URLRequest.swift */,
+				6A4E6EC6EC8E6A3C0E3FAE7969D79697 /* View.swift */,
+				C49E01D44E18EACBD2897B41E1DAED46 /* Wait.swift */,
+				4C869ECC854FA35B8D5425A85A462D9F /* XCTAttachment.swift */,
+				A4E1150287E8F4D9B2A9725B19AACC7D /* Support Files */,
 			);
-			name = "Pods-BankChallengeApp";
-			path = "Target Support Files/Pods-BankChallengeApp";
+			name = SnapshotTesting;
+			path = SnapshotTesting;
 			sourceTree = "<group>";
 		};
-		50A8991B002222AEC9F58BF937334663 /* Pods-BankChallengeAppTests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F2B320B26B48FC56DDAE2E7BF603613 /* Pods-BankChallengeAppTests.modulemap */,
-				D51A8972DC3F0983EBFB1A71573CFAD8 /* Pods-BankChallengeAppTests-acknowledgements.markdown */,
-				39CFBE4ADC4FF6B742ED924FC1E6CCD3 /* Pods-BankChallengeAppTests-acknowledgements.plist */,
-				503A4D5F095F216A7A7CFCF966C324AB /* Pods-BankChallengeAppTests-dummy.m */,
-				C6AC36D65BAC180A9AF436011858531C /* Pods-BankChallengeAppTests-Info.plist */,
-				EE7DD7E1FD8987437D5971D51423C276 /* Pods-BankChallengeAppTests-umbrella.h */,
-				5186632ACC81864F1744315BE5201635 /* Pods-BankChallengeAppTests.debug.xcconfig */,
-				A300875B821152F93CD61758E39465B1 /* Pods-BankChallengeAppTests.release.xcconfig */,
+				974814B39C0012DECD183BBB91B32103 /* iOS */,
 			);
-			name = "Pods-BankChallengeAppTests";
-			path = "Target Support Files/Pods-BankChallengeAppTests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		164C89CFDD09AFBD3A98EDBAE3E92773 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				126C8862FABF8FC0CBDC04BB2B6D64F6 /* SnapshotTesting */,
+				F5BA03757BAC75B62D1629B626A557C7 /* SwiftLint */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+		5664AFDAD1D868171E2D6E0E3BC4F141 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+				25994B9A55FA12F0E76BC42EE6FFA23E /* SwiftLint.debug.xcconfig */,
+				278B8C55BC821D1CA791D7669697604D /* SwiftLint.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+		69F974DBFFCFAA375022E14E4AE38725 /* Pods-BankChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+				79648CB9E1DC847BDF839135016AED4A /* Pods-BankChallengeApp.modulemap */,
+				521D1499C4CE94F44A0BEF0841E94872 /* Pods-BankChallengeApp-acknowledgements.markdown */,
+				300AE02992761F93BDDE1841719BFE67 /* Pods-BankChallengeApp-acknowledgements.plist */,
+				EA5725E3B818A2977382F5D2721AEE7D /* Pods-BankChallengeApp-dummy.m */,
+				8E30D0B93B97A5E95E611978EA1FB9F4 /* Pods-BankChallengeApp-frameworks.sh */,
+				619E3A29A4742BB06C43C09F23DB1639 /* Pods-BankChallengeApp-Info.plist */,
+				AE949030F2998469C7DC5874475C716B /* Pods-BankChallengeApp-umbrella.h */,
+				8A8362C44833B23E4CA3BEC3A9BC77CD /* Pods-BankChallengeApp.debug.xcconfig */,
+				6E2AED0C402EEDEA264D93D42693582B /* Pods-BankChallengeApp.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-BankChallengeApp";
+			path = "Target Support Files/Pods-BankChallengeApp";
 			sourceTree = "<group>";
 		};
-		C1E1E8FC5EB5B76C542FAC12CCEBE25A /* Pods-BankChallengeApp-BankChallengeAppUITests */ = {
+		974814B39C0012DECD183BBB91B32103 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EB27DBD06E8584F501B2FECE74196397 /* Pods-BankChallengeApp-BankChallengeAppUITests.modulemap */,
-				3F1A06A039F1147D08E5284232FE1E42 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown */,
-				BAC2BAC87B7BE57AFE3C26CAFB706DF2 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist */,
-				6F1C8AE83B3C5985359D69059579D95D /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */,
-				F9BB095E510BBC6298805C2A42560791 /* Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist */,
-				E58278794513805B96FD436602B9DDC8 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */,
-				D0170611AA8D7DF8CC89EF3527EA009F /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */,
-				AB429DB7267756E59346113E999D671B /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */,
+				CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */,
+				5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A4E1150287E8F4D9B2A9725B19AACC7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67569644F25F696C254045B925FD64D6 /* SnapshotTesting.modulemap */,
+				E2F76A7B8B54C50123178CA7100BFD75 /* SnapshotTesting-dummy.m */,
+				ED10AC134159817B2F9C9F35804BDEF7 /* SnapshotTesting-Info.plist */,
+				AD387FC5167FB4A2F6C42F98147374BE /* SnapshotTesting-prefix.pch */,
+				542580A94991C414F8A165F89E7936B0 /* SnapshotTesting-umbrella.h */,
+				4A870AE8418EC79B0729382ADD4B7858 /* SnapshotTesting.debug.xcconfig */,
+				D8567465FBB03A2765FBB9C79A54039E /* SnapshotTesting.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapshotTesting";
+			sourceTree = "<group>";
+		};
+		C0A8AF75877DA4428A0B853E6533460F /* Pods-BankChallengeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				643BB841F56B77793D570FC12A701B10 /* Pods-BankChallengeAppTests.modulemap */,
+				1E61752EEBF77AFA873A07E311EF5D5B /* Pods-BankChallengeAppTests-acknowledgements.markdown */,
+				7FC297ADE41DBF7E960772990681AFB3 /* Pods-BankChallengeAppTests-acknowledgements.plist */,
+				AFBADFA091CF0572A5E828E0E87C83B2 /* Pods-BankChallengeAppTests-dummy.m */,
+				5082EC71CDCB090DD27CE07F8DEAEFCA /* Pods-BankChallengeAppTests-Info.plist */,
+				470DB1526D79DCB47644B420DC4714F2 /* Pods-BankChallengeAppTests-umbrella.h */,
+				7C259D514EAD67046D16F62CB905DF9F /* Pods-BankChallengeAppTests.debug.xcconfig */,
+				46C7EAC9D9FD818A4E128CE0058EA347 /* Pods-BankChallengeAppTests.release.xcconfig */,
+			);
+			name = "Pods-BankChallengeAppTests";
+			path = "Target Support Files/Pods-BankChallengeAppTests";
+			sourceTree = "<group>";
+		};
+		C37FC3ED90AB1C56E9B58B3CE4A383DD /* Pods-BankChallengeApp-BankChallengeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0090DFF3220FE5F4AEC5B3668C5B9D /* Pods-BankChallengeApp-BankChallengeAppUITests.modulemap */,
+				D374D655E5F21E835AD180E91579B7DF /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.markdown */,
+				7C049FF636111C91085B833EA55E51B3 /* Pods-BankChallengeApp-BankChallengeAppUITests-acknowledgements.plist */,
+				F4411ADDED22C4471CBC89AD4BD6EF80 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m */,
+				964EA559FD0DA21824F325264E06BAF2 /* Pods-BankChallengeApp-BankChallengeAppUITests-frameworks.sh */,
+				F9710106F336E760BF7A1D5D9F393516 /* Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist */,
+				35DA5052225BAA34BB8208EF30FA8C10 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h */,
+				68CCE5D594522D06EF1F66616C650695 /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */,
+				BC3DABF86949E52D4913FCF39D778FA3 /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */,
 			);
 			name = "Pods-BankChallengeApp-BankChallengeAppUITests";
 			path = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests";
-			sourceTree = "<group>";
-		};
-		C70A0B561BD8B413CCD4D5A63F860CD1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27E8B4DE5802EA6C9A38FDFBFC790BAE /* Pods-BankChallengeApp */,
-				C1E1E8FC5EB5B76C542FAC12CCEBE25A /* Pods-BankChallengeApp-BankChallengeAppUITests */,
-				50A8991B002222AEC9F58BF937334663 /* Pods-BankChallengeAppTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
-				DAC217F3269877775D4232EA801E3948 /* Products */,
-				C70A0B561BD8B413CCD4D5A63F860CD1 /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				164C89CFDD09AFBD3A98EDBAE3E92773 /* Pods */,
+				FB292B21DB00CB56FB6BB7D284C7FC38 /* Products */,
+				F2B0EC032599018CB531AF76FD8E890B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F2B0EC032599018CB531AF76FD8E890B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				69F974DBFFCFAA375022E14E4AE38725 /* Pods-BankChallengeApp */,
+				C37FC3ED90AB1C56E9B58B3CE4A383DD /* Pods-BankChallengeApp-BankChallengeAppUITests */,
+				C0A8AF75877DA4428A0B853E6533460F /* Pods-BankChallengeAppTests */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+		F5BA03757BAC75B62D1629B626A557C7 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+				5664AFDAD1D868171E2D6E0E3BC4F141 /* Support Files */,
 			);
 			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		DAC217F3269877775D4232EA801E3948 /* Products */ = {
+		FB292B21DB00CB56FB6BB7D284C7FC38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				90125018FEB4A9E511A62EC4C07C753E /* Pods-BankChallengeApp */,
 				34A14726E5A0DD11BB237D71A1BAE32E /* Pods-BankChallengeApp-BankChallengeAppUITests */,
 				8A00F0245E514EAECEB87FF5033A510A /* Pods-BankChallengeAppTests */,
+				A037DBBCCACBFACB5C39A80B1C273043 /* SnapshotTesting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,19 +407,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		34582FEF638920C6930D75F429196BB7 /* Headers */ = {
+		3028B0B304F73D55F0808D4B5DA6BD13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D430FBA8AB9AE7538FCBD812458F661 /* Pods-BankChallengeApp-umbrella.h in Headers */,
+				0CDCDA70419BF0A8676F57DBD9C8CBC1 /* Pods-BankChallengeApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		436AA21241C4407DB0246C50E0408D2C /* Headers */ = {
+		3DB53013216AE1CFCAD939686EC8C0A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9785101A0D43A6F6A8DD92B939FAA4AD /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h in Headers */,
+				9D6622CDE2793B13735F47C44A7743ED /* SnapshotTesting-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,22 +431,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B507F7ABD15611CD1E5F6C2D667273EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B62AD39222D180561E15822EA4659 /* Pods-BankChallengeApp-BankChallengeAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6E4935198E573280556ABE568C37A7AD /* Pods-BankChallengeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 603F450B64BCDF943BED7B1FCEBDF47E /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp" */;
+			buildConfigurationList = 84DC5D0F74C450B5837168FC896F41C8 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp" */;
 			buildPhases = (
-				34582FEF638920C6930D75F429196BB7 /* Headers */,
-				250FA4B2C37F0C1C70CCBDB63ED7817A /* Sources */,
-				3421CAC77C9163A3F64E8CC95E43366B /* Frameworks */,
-				DB702ADEB5A259E2FE80B9F1ADD34DB8 /* Resources */,
+				3028B0B304F73D55F0808D4B5DA6BD13 /* Headers */,
+				A871A7F62DCAB741EC93F3EA94AEB772 /* Sources */,
+				A70C5B548D0A47B87C1BD35FF6435380 /* Frameworks */,
+				674D01050493EAF2E5DA21A9908AA83D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCE5EBAE85FFB767831E393675C7E280 /* PBXTargetDependency */,
+				108727A792026771BDD223BBE88F0200 /* PBXTargetDependency */,
+				BF7DA51AB1C0A9C51BCB05C2A6A78F66 /* PBXTargetDependency */,
 			);
 			name = "Pods-BankChallengeApp";
 			productName = Pods_BankChallengeApp;
@@ -289,17 +464,18 @@
 		};
 		6E8941C46C0D0DC38658660CB8C8DF17 /* Pods-BankChallengeApp-BankChallengeAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D90C38975E61C6D07F0EE20AB850353 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp-BankChallengeAppUITests" */;
+			buildConfigurationList = 6428590E356D6CE8542178ABD9D3C039 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp-BankChallengeAppUITests" */;
 			buildPhases = (
-				436AA21241C4407DB0246C50E0408D2C /* Headers */,
-				81DF4FA3DA651D1849FDAB03F46BD149 /* Sources */,
-				42202F59AEFAE87BF6469430430B47B7 /* Frameworks */,
-				7AD41BD5A6843974CB458713315D110B /* Resources */,
+				B507F7ABD15611CD1E5F6C2D667273EB /* Headers */,
+				7885B29B554C9BC9C6A087BBFAC2B498 /* Sources */,
+				7CD5C51A10C917977CCE092F29484751 /* Frameworks */,
+				809B74BF6A4F746BFC02109314142951 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AF19112BA919FCF2E66DC7AD2087484 /* PBXTargetDependency */,
+				72F3A4860611E8039DC434D2C6BF88FC /* PBXTargetDependency */,
+				1B0FF187AA2E5862F37926E84BE11721 /* PBXTargetDependency */,
 			);
 			name = "Pods-BankChallengeApp-BankChallengeAppUITests";
 			productName = Pods_BankChallengeApp_BankChallengeAppUITests;
@@ -318,11 +494,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				BEA6C85E17E8B250ABAF656E1EB0FF0C /* PBXTargetDependency */,
+				B829E3B9F5169A3027F1CF79860D802B /* PBXTargetDependency */,
 			);
 			name = "Pods-BankChallengeAppTests";
 			productName = Pods_BankChallengeAppTests;
 			productReference = 8A00F0245E514EAECEB87FF5033A510A /* Pods-BankChallengeAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADEAE7CDD604DE4F3072E6021A314487 /* SnapshotTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A33CBF071F9C6C103AB492799B536 /* Build configuration list for PBXNativeTarget "SnapshotTesting" */;
+			buildPhases = (
+				3DB53013216AE1CFCAD939686EC8C0A4 /* Headers */,
+				A6FA35379EB6A1D3271EA288BC860175 /* Sources */,
+				A3E6F437DCDBD6A93A734772AFD5F236 /* Frameworks */,
+				EABF71C4857BAE69F08CA52822E17A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapshotTesting;
+			productName = SnapshotTesting;
+			productReference = A037DBBCCACBFACB5C39A80B1C273043 /* SnapshotTesting */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -343,20 +537,28 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DAC217F3269877775D4232EA801E3948 /* Products */;
+			productRefGroup = FB292B21DB00CB56FB6BB7D284C7FC38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6E4935198E573280556ABE568C37A7AD /* Pods-BankChallengeApp */,
 				6E8941C46C0D0DC38658660CB8C8DF17 /* Pods-BankChallengeApp-BankChallengeAppUITests */,
 				902EA3E36724AD13F3B2006E6EE4292A /* Pods-BankChallengeAppTests */,
+				ADEAE7CDD604DE4F3072E6021A314487 /* SnapshotTesting */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7AD41BD5A6843974CB458713315D110B /* Resources */ = {
+		674D01050493EAF2E5DA21A9908AA83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809B74BF6A4F746BFC02109314142951 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +572,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB702ADEB5A259E2FE80B9F1ADD34DB8 /* Resources */ = {
+		EABF71C4857BAE69F08CA52822E17A0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,47 +590,246 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		250FA4B2C37F0C1C70CCBDB63ED7817A /* Sources */ = {
+		7885B29B554C9BC9C6A087BBFAC2B498 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCC1AC3CE2C6BD77FF77DB46B65841F /* Pods-BankChallengeApp-dummy.m in Sources */,
+				B82E31B02A02CB8400E4076A22597B76 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81DF4FA3DA651D1849FDAB03F46BD149 /* Sources */ = {
+		A6FA35379EB6A1D3271EA288BC860175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623DF05495BD838BA20AF6AF05A61FB9 /* Pods-BankChallengeApp-BankChallengeAppUITests-dummy.m in Sources */,
+				28F1B4D31269CC69CB5F41DBBCEF5222 /* Any.swift in Sources */,
+				4249BA5FD30CFB0680582D7C7C6EE392 /* AssertInlineSnapshot.swift in Sources */,
+				3DAFC3A87D54F6BA47518F4904B7FE54 /* AssertSnapshot.swift in Sources */,
+				CFFD67104AE4ABBFEB3801F9B8149664 /* Async.swift in Sources */,
+				C56B3E1A07308BCC8376D15C735B1C25 /* CALayer.swift in Sources */,
+				DA787DFD55A7814418DE78F66BA70847 /* CaseIterable.swift in Sources */,
+				07319FC388250B963206DB0BF5262128 /* CGPath.swift in Sources */,
+				4F4D449821AB24276FA18CB343B2C3E8 /* Codable.swift in Sources */,
+				78BBB110735B5BD1BDDC3CD4FC563323 /* Data.swift in Sources */,
+				532436EEB8C806728018E24162505A32 /* Description.swift in Sources */,
+				6FA42D338F2CDE1914908E7D0662AED5 /* Diff.swift in Sources */,
+				2C0C1A356E0D75368E196C24C3761129 /* Diffing.swift in Sources */,
+				5CA71008BD23B355944AC5383821C4E2 /* Internal.swift in Sources */,
+				957508AA897C27F86D544CCF1CED1904 /* NSBezierPath.swift in Sources */,
+				97BEDF828D70F8BE2BE4E917DD992C48 /* NSImage.swift in Sources */,
+				3D1E0E44DB5DB31C932BBB9F1385B57A /* NSView.swift in Sources */,
+				9D65BFC4B2C4B6102D6B7EC25A7CD739 /* NSViewController.swift in Sources */,
+				70060B0C311FBDF840146EEE9B762220 /* PlistEncoder.swift in Sources */,
+				6235B3883B6D9B3EF262ACFF43631F3D /* SceneKit.swift in Sources */,
+				486A6DAD276EB55E6D7C9F515C86C227 /* SnapshotTestCase.swift in Sources */,
+				1D0EF6FBAF37BB930183B8F5AA719CD2 /* SnapshotTesting-dummy.m in Sources */,
+				EB5F8B0D9E74FD8A1724B04E6AACFABE /* Snapshotting.swift in Sources */,
+				480D1264071DA1967F86F28F5CF29B8B /* SpriteKit.swift in Sources */,
+				88DE0AA2E9071FD322F40132B5ACE852 /* String.swift in Sources */,
+				FEB8176EE5F7E44C5399D94BC6DE0C46 /* String+SpecialCharacters.swift in Sources */,
+				D7AE9DBB6C5D2522EB24A673921F9365 /* SwiftUIView.swift in Sources */,
+				7F5C5DD662B656505ECF172E1DDC232E /* UIBezierPath.swift in Sources */,
+				9104476A4778BB28C819AB92599A5B6E /* UIImage.swift in Sources */,
+				9F6B241BE1332F18DFCC2BF32E03C42C /* UIView.swift in Sources */,
+				D3C4D4F28C0180E812B6BA5FC4F5015B /* UIViewController.swift in Sources */,
+				96E71750BD8C847E125FAB3C7A336224 /* URLRequest.swift in Sources */,
+				928DBECCA86A6F98E4B42FA62C5FF051 /* View.swift in Sources */,
+				9B00AEBE5F221FE9815159125313C0BD /* Wait.swift in Sources */,
+				D0A29718080A06AB351F6FA41B725BEA /* XCTAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871A7F62DCAB741EC93F3EA94AEB772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0E9D12079782FAE01AF7C728845785 /* Pods-BankChallengeApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AF19112BA919FCF2E66DC7AD2087484 /* PBXTargetDependency */ = {
+		108727A792026771BDD223BBE88F0200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapshotTesting;
+			target = ADEAE7CDD604DE4F3072E6021A314487 /* SnapshotTesting */;
+			targetProxy = 7AAFE229F6C85F1C9A6DFA5CED2ADACD /* PBXContainerItemProxy */;
+		};
+		1B0FF187AA2E5862F37926E84BE11721 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 57961065A9E6C3370F805C38A4740117 /* PBXContainerItemProxy */;
+			targetProxy = A667EF6CAF626D5ADA108A249C41AC55 /* PBXContainerItemProxy */;
 		};
-		BCE5EBAE85FFB767831E393675C7E280 /* PBXTargetDependency */ = {
+		72F3A4860611E8039DC434D2C6BF88FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = F7DFDDCFF363198F731163CEE63A2FA4 /* PBXContainerItemProxy */;
+			name = SnapshotTesting;
+			target = ADEAE7CDD604DE4F3072E6021A314487 /* SnapshotTesting */;
+			targetProxy = 813A4EA8A17C623D13CAEECEBC393D52 /* PBXContainerItemProxy */;
 		};
-		BEA6C85E17E8B250ABAF656E1EB0FF0C /* PBXTargetDependency */ = {
+		B829E3B9F5169A3027F1CF79860D802B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BankChallengeApp";
 			target = 6E4935198E573280556ABE568C37A7AD /* Pods-BankChallengeApp */;
-			targetProxy = A164B19FC5BF6EC2B24A08544C33D265 /* PBXContainerItemProxy */;
+			targetProxy = 5B0990B31D6A793B640401D06C9F37A5 /* PBXContainerItemProxy */;
+		};
+		BF7DA51AB1C0A9C51BCB05C2A6A78F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 0FB3DF9BBC4AFE5608FC7C76A919BE89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+		1F4B031DF8DC3FF1AA45D457836EBAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8362C44833B23E4CA3BEC3A9BC77CD /* Pods-BankChallengeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp/Pods-BankChallengeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeApp/Pods-BankChallengeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38054F06D12494D19A4C008BB03C6C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8567465FBB03A2765FBB9C79A54039E /* SnapshotTesting.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapshotTesting/SnapshotTesting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapshotTesting/SnapshotTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapshotTesting/SnapshotTesting.modulemap";
+				PRODUCT_MODULE_NAME = SnapshotTesting;
+				PRODUCT_NAME = SnapshotTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		416893A113E477385802993A6B542D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3DABF86949E52D4913FCF39D778FA3 /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests/Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests/Pods-BankChallengeApp-BankChallengeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B2A9AB578F492EBA041FAA048620A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A870AE8418EC79B0729382ADD4B7858 /* SnapshotTesting.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapshotTesting/SnapshotTesting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapshotTesting/SnapshotTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapshotTesting/SnapshotTesting.modulemap";
+				PRODUCT_MODULE_NAME = SnapshotTesting;
+				PRODUCT_NAME = SnapshotTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -481,7 +882,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -494,82 +895,7 @@
 			};
 			name = Debug;
 		};
-		0FC05E55C7DBB12ED9721D47F8C139BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A300875B821152F93CD61758E39465B1 /* Pods-BankChallengeAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1095132320AB812F007DB4345BC01579 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5186632ACC81864F1744315BE5201635 /* Pods-BankChallengeAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -619,7 +945,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -631,9 +957,63 @@
 			};
 			name = Release;
 		};
-		98D3EA1E66221A72A4F3D6DBD08A9026 /* Debug */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E6470C270E12D2DE6801704125B221 /* Pods-BankChallengeApp.debug.xcconfig */;
+			baseConfigurationReference = 278B8C55BC821D1CA791D7669697604D /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94E8077B55336D89A02C36DCA10C35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C259D514EAD67046D16F62CB905DF9F /* Pods-BankChallengeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC939868886F9EDF0000B0CE67E7D2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2AED0C402EEDEA264D93D42693582B /* Pods-BankChallengeApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -647,7 +1027,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp/Pods-BankChallengeApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,31 +1043,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
 			name = Release;
 		};
-		BC815092102922B74FE3DF0AA7A8AFFB /* Debug */ = {
+		DF882C8E3E0CA4FFD0BFE07B6DD4768F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0170611AA8D7DF8CC89EF3527EA009F /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 46C7EAC9D9FD818A4E128CE0058EA347 /* Pods-BankChallengeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -699,16 +1063,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests/Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests/Pods-BankChallengeApp-BankChallengeAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeAppTests/Pods-BankChallengeAppTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -717,14 +1081,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			baseConfigurationReference = 25994B9A55FA12F0E76BC42EE6FFA23E /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -738,47 +1103,9 @@
 			};
 			name = Debug;
 		};
-		ECE35AC296D03D31970053EED0EDAB80 /* Release */ = {
+		FEFBA7EC5AF8B397BFEC500ACB5933D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C594A007A1C93F417E02C3BEB6439C /* Pods-BankChallengeApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp/Pods-BankChallengeApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BankChallengeApp/Pods-BankChallengeApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED519D5B582235E7348CAF1168291264 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB429DB7267756E59346113E999D671B /* Pods-BankChallengeApp-BankChallengeAppUITests.release.xcconfig */;
+			baseConfigurationReference = 68CCE5D594522D06EF1F66616C650695 /* Pods-BankChallengeApp-BankChallengeAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -792,7 +1119,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BankChallengeApp-BankChallengeAppUITests/Pods-BankChallengeApp-BankChallengeAppUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,20 +1135,19 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D90C38975E61C6D07F0EE20AB850353 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp-BankChallengeAppUITests" */ = {
+		331A33CBF071F9C6C103AB492799B536 /* Build configuration list for PBXNativeTarget "SnapshotTesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC815092102922B74FE3DF0AA7A8AFFB /* Debug */,
-				ED519D5B582235E7348CAF1168291264 /* Release */,
+				8B2A9AB578F492EBA041FAA048620A24 /* Debug */,
+				38054F06D12494D19A4C008BB03C6C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -829,17 +1155,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
-				2DE0D8898245310716431F92FA4989FF /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		603F450B64BCDF943BED7B1FCEBDF47E /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp" */ = {
+		6428590E356D6CE8542178ABD9D3C039 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp-BankChallengeAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98D3EA1E66221A72A4F3D6DBD08A9026 /* Debug */,
-				ECE35AC296D03D31970053EED0EDAB80 /* Release */,
+				FEFBA7EC5AF8B397BFEC500ACB5933D9 /* Debug */,
+				416893A113E477385802993A6B542D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,8 +1173,17 @@
 		7C7EBCC3B9E07A8F468A895D0727D0C5 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1095132320AB812F007DB4345BC01579 /* Debug */,
-				0FC05E55C7DBB12ED9721D47F8C139BE /* Release */,
+				B94E8077B55336D89A02C36DCA10C35E /* Debug */,
+				DF882C8E3E0CA4FFD0BFE07B6DD4768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DC5D0F74C450B5837168FC896F41C8 /* Build configuration list for PBXNativeTarget "Pods-BankChallengeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4B031DF8DC3FF1AA45D457836EBAA8 /* Debug */,
+				BC939868886F9EDF0000B0CE67E7D2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

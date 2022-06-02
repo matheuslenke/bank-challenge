@@ -105,10 +105,33 @@ class TransactionTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func setup(with model: String) {
+    func setup(with model: Transaction) {
+        transactionTitleLabel.text = model.itemDescription
+        priceLabel.text = model.amount.formatPriceBRL()
+        nameLabel.text = model.to
 
+        if model.tType == .pixcashin || model.tType == .pixcashout {
+            setupPixLabel(isPixTransaction: true)
+        } else {
+            setupPixLabel(isPixTransaction: false)
+        }
+        let dateFormatter = DateFormatter.dayAndMonth
+        if let date = model.createdAt {
+            dateLabel.text = dateFormatter.string(from: date)
+        }
     }
 
+    func setupPixLabel(isPixTransaction: Bool) {
+        if isPixTransaction {
+            self.contentView.backgroundColor = Colors.backgroundColor
+            self.lineContainerView.backgroundColor = Colors.backgroundColor
+            pixLabel.isHidden = false
+        } else {
+            pixLabel.isHidden = true
+            self.contentView.backgroundColor = .white
+            self.lineContainerView.backgroundColor = .white
+        }
+    }
 }
 
 extension TransactionTableViewCell: ViewConfiguration {
@@ -132,6 +155,7 @@ extension TransactionTableViewCell: ViewConfiguration {
     }
 
     func buildViewHierarchy() {
+        contentView.backgroundColor = .white
         contentView.addSubview(lineContainerView)
         contentView.addSubview(infoStackView)
 
@@ -141,6 +165,7 @@ extension TransactionTableViewCell: ViewConfiguration {
 
         titleStackView.addArrangedSubview(transactionTitleLabel)
         titleStackView.addArrangedSubview(pixLabel)
+        pixLabel.isHidden = true
 
         nameAndDateStackView.addArrangedSubview(nameLabel)
         nameAndDateStackView.addArrangedSubview(dateLabel)

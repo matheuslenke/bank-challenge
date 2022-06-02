@@ -12,6 +12,7 @@ struct BalanceRequest: Request {
     var baseURL: String {
         return Constants.TransactionsApi.url
     }
+
     var path: String {
         return "myBalance"
     }

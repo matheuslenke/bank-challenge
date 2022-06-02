@@ -12,6 +12,7 @@ public protocol ViewConfiguration: AnyObject {
     func buildViewHierarchy()
     func configureViews()
     func setupViewConfiguration()
+    func setupLoadingView()
 }
 
 extension ViewConfiguration {
@@ -22,5 +23,8 @@ extension ViewConfiguration {
     }
 
     public func configureViews() {
+    }
+    
+    public func setupLoadingView() {
     }
 }

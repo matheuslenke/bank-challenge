@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StatementRequest: Request {
+struct TransactionsRequest: Request {
 
     let limit: Int
     let offset: Int
@@ -15,6 +15,7 @@ struct StatementRequest: Request {
     var baseURL: String {
         return Constants.TransactionsApi.url
     }
+
     var path: String {
         return "myStatement/\(limit)/\(offset)"
     }

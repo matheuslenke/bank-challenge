@@ -26,6 +26,7 @@ class LineWithCircleView: UIView {
         self.circleBorderColor = circleBorderColor
         self.lineColor = self.lineColor
         self.circleRadius = circleRadius
+        self.backgroundColor = .white
     }
 
     // MARK: - Custom Drawing
@@ -35,7 +36,7 @@ class LineWithCircleView: UIView {
             return
         }
         // Drawing white background
-        UIColor.white.set()
+        UIColor.clear.set()
         context.addRect(CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height))
         context.fillPath()
 
@@ -60,5 +61,9 @@ class LineWithCircleView: UIView {
         path.lineWidth = 3
         path.stroke()
         path.fill()
+    }
+    
+    public func setBackground(with color: UIColor) {
+        self.backgroundColor = color
     }
 }

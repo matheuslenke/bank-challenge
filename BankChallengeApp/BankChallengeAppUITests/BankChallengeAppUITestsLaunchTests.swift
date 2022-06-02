@@ -2,7 +2,7 @@
 //  BankChallengeAppUITestsLaunchTests.swift
 //  BankChallengeAppUITests
 //
-//  Created by Matheus Lenke on 31/05/22.
+//  Created by Matheus Lenke on 02/06/22.
 //
 
 import XCTest

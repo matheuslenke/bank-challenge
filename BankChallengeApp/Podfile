@@ -8,6 +8,7 @@ target 'BankChallengeApp' do
   # Pods for BankChallengeApp
 
   pod 'SwiftLint'
+  pod 'SnapshotTesting', '~> 1.9.0'
 
   target 'BankChallengeAppTests' do
     inherit! :search_paths
