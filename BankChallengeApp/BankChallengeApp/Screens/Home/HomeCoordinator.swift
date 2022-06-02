@@ -8,14 +8,19 @@
 import UIKit
 
 class HomeCoordinator: Coordinator {
+    // MARK: - Instance properties
 
     private(set) var childCoordinators: [Coordinator] = []
 
     private let navigationController: UINavigationController
+    
+    // MARK: - Initialization
 
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
+    
+    // MARK: - Helpers
 
     func start() {
         let homeViewController = HomeViewController()

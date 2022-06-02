@@ -9,11 +9,15 @@ import UIKit
 
 class TransactionDetailsCoordinator: Coordinator {
     
+    // MARK: - Instance Properties
+    
     private(set) var childCoordinators: [Coordinator] = []
     
     private let navigationController: UINavigationController
     private let transaction: Transaction
 
+    // MARK: - Initialization
+    
     init(navigationController: UINavigationController, transaction: Transaction ) {
         self.transaction = transaction
         self.navigationController = navigationController

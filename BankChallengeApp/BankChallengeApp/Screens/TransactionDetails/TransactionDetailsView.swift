@@ -12,7 +12,7 @@ protocol TransactionDetailsViewProtocol: AnyObject {
 }
 
 class TransactionDetailsView: UIView {
-    // MARK: - Variables
+    // MARK: - Instance properties
 
     private weak var delegate: TransactionDetailsViewProtocol?
 
@@ -153,6 +153,8 @@ class TransactionDetailsView: UIView {
         delegate?.actionShareButton(with: image)
     }
 }
+
+// MARK: - ViewConfiguration
 
 extension TransactionDetailsView: ViewConfiguration {
 

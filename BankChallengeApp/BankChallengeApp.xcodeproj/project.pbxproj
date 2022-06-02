@@ -12,10 +12,7 @@
 		F26AC074C776F48678873FB8 /* Pods_BankChallengeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097F89C9B38640D7025CC76 /* Pods_BankChallengeApp.framework */; };
 		F86E4F402846BC2D009E789A /* TransactionDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4F3F2846BC2D009E789A /* TransactionDetailsRequest.swift */; };
 		F86E4F442846E7B0009E789A /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4F432846E7B0009E789A /* Double+Extensions.swift */; };
-		F86E4F462846F02E009E789A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4F452846F02E009E789A /* Date+Extensions.swift */; };
-		F88F25D228486D4A00C85133 /* BankChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F25D128486D4A00C85133 /* BankChallengeAppTests.swift */; };
-		F88F25DF28486D5000C85133 /* BankChallengeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F25DE28486D5000C85133 /* BankChallengeAppUITests.swift */; };
-		F88F25E128486D5000C85133 /* BankChallengeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F25E028486D5000C85133 /* BankChallengeAppUITestsLaunchTests.swift */; };
+		F86E4F462846F02E009E789A /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4F452846F02E009E789A /* DateFormatter+Extensions.swift */; };
 		F8EBB76528463FC100800D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBB76428463FC100800D68 /* AppDelegate.swift */; };
 		F8EBB76728463FC100800D68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBB76628463FC100800D68 /* SceneDelegate.swift */; };
 		F8EBB76928463FC100800D68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBB76828463FC100800D68 /* HomeViewController.swift */; };
@@ -78,12 +75,9 @@
 		EB59DD5F4EF8BB6D5D8AF364 /* Pods_BankChallengeApp_BankChallengeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankChallengeApp_BankChallengeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86E4F3F2846BC2D009E789A /* TransactionDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsRequest.swift; sourceTree = "<group>"; };
 		F86E4F432846E7B0009E789A /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
-		F86E4F452846F02E009E789A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F86E4F452846F02E009E789A /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		F88F25CF28486D4A00C85133 /* BankChallengeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankChallengeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88F25D128486D4A00C85133 /* BankChallengeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankChallengeAppTests.swift; sourceTree = "<group>"; };
 		F88F25DC28486D5000C85133 /* BankChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88F25DE28486D5000C85133 /* BankChallengeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankChallengeAppUITests.swift; sourceTree = "<group>"; };
-		F88F25E028486D5000C85133 /* BankChallengeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankChallengeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F88F25E728486E4F00C85133 /* Pods_BankChallengeApp_BankChallengeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BankChallengeApp_BankChallengeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88F25E928486E5400C85133 /* Pods_BankChallengeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BankChallengeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88F25EB28486E5800C85133 /* SnapshotTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,31 +178,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F88F25D028486D4A00C85133 /* BankChallengeAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				F88F25D128486D4A00C85133 /* BankChallengeAppTests.swift */,
-			);
-			path = BankChallengeAppTests;
-			sourceTree = "<group>";
-		};
-		F88F25DD28486D5000C85133 /* BankChallengeAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F88F25DE28486D5000C85133 /* BankChallengeAppUITests.swift */,
-				F88F25E028486D5000C85133 /* BankChallengeAppUITestsLaunchTests.swift */,
-			);
-			path = BankChallengeAppUITests;
-			sourceTree = "<group>";
-		};
 		F8EBB75828463FC100800D68 = {
 			isa = PBXGroup;
 			children = (
 				F8EBB76328463FC100800D68 /* BankChallengeApp */,
 				F8EBB77A28463FC200800D68 /* BankChallengeAppTests */,
 				F8EBB78428463FC200800D68 /* BankChallengeAppUITests */,
-				F88F25D028486D4A00C85133 /* BankChallengeAppTests */,
-				F88F25DD28486D5000C85133 /* BankChallengeAppUITests */,
 				F8EBB76228463FC100800D68 /* Products */,
 				9E6155BC15EE0994054741F2 /* Pods */,
 				B34708C71A0C4A8F6C3B71E3 /* Frameworks */,
@@ -291,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				F86E4F432846E7B0009E789A /* Double+Extensions.swift */,
-				F86E4F452846F02E009E789A /* Date+Extensions.swift */,
+				F86E4F452846F02E009E789A /* DateFormatter+Extensions.swift */,
 				F8F9953B284830CF0043559A /* UIView+Extensions.swift */,
 				F8F9953D28485AA60043559A /* UIViewController+Extensions.swift */,
 			);
@@ -679,7 +654,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88F25D228486D4A00C85133 /* BankChallengeAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,8 +661,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88F25E128486D5000C85133 /* BankChallengeAppUITestsLaunchTests.swift in Sources */,
-				F88F25DF28486D5000C85133 /* BankChallengeAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,7 +682,7 @@
 				F8EBB79B2846404000800D68 /* Colors.swift in Sources */,
 				F8EBB7A62846424900800D68 /* HomeViewModel.swift in Sources */,
 				F8EBB76528463FC100800D68 /* AppDelegate.swift in Sources */,
-				F86E4F462846F02E009E789A /* Date+Extensions.swift in Sources */,
+				F86E4F462846F02E009E789A /* DateFormatter+Extensions.swift in Sources */,
 				F8F9952F2847F3120043559A /* TransactionDetailsViewModel.swift in Sources */,
 				F8EBB7A42846424000800D68 /* HomeView.swift in Sources */,
 				F8F3F03B28468A61000CEFF8 /* HTTPMethod.swift in Sources */,

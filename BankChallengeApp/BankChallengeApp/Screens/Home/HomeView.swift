@@ -12,6 +12,7 @@ protocol HomeViewProtocol: AnyObject {
 }
 
 class HomeView: UIView {
+    // MARK: - Instance Properties
     
     private weak var delegate: HomeViewProtocol?
 
@@ -112,7 +113,7 @@ class HomeView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
-    // MARK: - Functions
+    // MARK: - Helpers
 
     public func delegate(delegate: HomeViewProtocol) {
         self.delegate = delegate
@@ -139,6 +140,8 @@ class HomeView: UIView {
         balanceLabel.text = balance.amount.formatPriceBRL()
         setupHiddenView(isHidden: isHidden)
     }
+    
+    // MARK: - Selectors
 
     @objc func toggleBalanceIsHidden(_ sender: UIButton) {
         guard let isBalanceHidden = delegate?.actionToggleEyeButton() else {

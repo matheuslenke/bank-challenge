@@ -7,6 +7,9 @@
 
 import Foundation
 
+/*
+    Default Errors for HTTP Requests
+ */
 enum HTTPRequestError: Error {
     case couldNotFormURL
     case couldNotParseResponse

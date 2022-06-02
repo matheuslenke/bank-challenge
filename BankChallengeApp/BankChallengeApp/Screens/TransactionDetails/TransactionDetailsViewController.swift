@@ -8,6 +8,7 @@
 import UIKit
 
 class TransactionDetailsViewController: UIViewController {
+    // MARK: - Instance properties
     
     private let detailsView = TransactionDetailsView()
     
@@ -23,6 +24,8 @@ class TransactionDetailsViewController: UIViewController {
 
         setup()
     }
+    
+    // MARK: - Helpers
 
     func setup() {
         viewModel?.delegate = self
@@ -37,6 +40,8 @@ class TransactionDetailsViewController: UIViewController {
     }
 }
 
+// MARK: - TransactionViewModelProtocol
+
 extension TransactionDetailsViewController: TransactionViewModelProtocol {
     func fetchDetailsWithSuccess() {
         guard let viewModel = viewModel, let transaction = viewModel.transaction else {
@@ -49,6 +54,8 @@ extension TransactionDetailsViewController: TransactionViewModelProtocol {
         print(error)
     }
 }
+
+// MARK: - TransactionDetailsViewProtocol
 
 extension TransactionDetailsViewController: TransactionDetailsViewProtocol {
     func actionShareButton(with image: UIImage) {

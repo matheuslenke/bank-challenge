@@ -14,7 +14,7 @@ protocol TransactionViewModelProtocol: AnyObject {
 
 class TransactionDetailsViewModel {
     
-    // MARK: - Variables
+    // MARK: - Instance Properties
     
     private var transactionsService: TransactionsServiceProtocol
     public var delegate: TransactionViewModelProtocol?
@@ -29,7 +29,7 @@ class TransactionDetailsViewModel {
         self.transactionId = transactionId
     }
     
-    // MARK: - Functions
+    // MARK: - Helpers
 
     func getTransaction() {
         transactionsService.fetchTransactionsDetails(with: transactionId) { result in

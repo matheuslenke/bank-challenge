@@ -15,6 +15,8 @@ protocol HomeViewModelProtocol: AnyObject {
 }
 
 class HomeViewModel {
+    
+    // MARK: - Instance Properties
 
     private let service: TransactionsServiceProtocol
 
@@ -48,7 +50,7 @@ class HomeViewModel {
         self.service = service
     }
 
-    // MARK: - Functions
+    // MARK: - Helpers
 
     func getBalance() {
         service.fetchBalance { (result: Result<Balance, HTTPRequestError>) in

@@ -9,7 +9,7 @@ import Foundation
 
 enum HTTPMethod: String {
 
-    // Defines the supported tyoes of HTTP methods
+    // Defines the supported types of HTTP methods
     case post
     case put
     case `get`

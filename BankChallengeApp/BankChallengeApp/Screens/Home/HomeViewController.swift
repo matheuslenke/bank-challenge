@@ -8,7 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    // MARK: - Variables
+    // MARK: - Instance Properties
 
     var viewModel: HomeViewModel?
 
@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         getTransactions()
     }
 
-    // MARK: - Functions
+    // MARK: - Helpers
 
     private func setup() {
         view.backgroundColor = .white
